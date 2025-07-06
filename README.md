@@ -41,16 +41,16 @@ cd rojomel-backend
 ```bash
 ./mvnw spring-boot:run
 ```
-`The server will start on: http://localhost:8080
+`The server will start on: http://localhost:9000
 
-📘 API Endpoints
-🔹 Customer APIs
-Method	Endpoint	Description
-GET	/api/customers	Get paginated customers
-GET	/api/customers/{id}	Get customer by ID
-POST	/api/customers	Create new customer
+### 📘 API Endpoints
+#### 🔹 Customer APIs
+  Method	Endpoint	Description
+  GET	/api/customers	Get paginated customers
+  GET	/api/customers/{id}	Get customer by ID
+  POST	/api/customers	Create new customer
 
-🔹 Finance Entry APIs
+#### 🔹 Finance Entry APIs
 Method	Endpoint	Description
 GET	/api/finance	Get all finance entries
 POST	/api/finance	Create new income/expense entry
