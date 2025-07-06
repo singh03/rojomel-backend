@@ -24,23 +24,24 @@ git clone https://github.com/YOUR_USERNAME/rojomel-backend.git
 cd rojomel-backend
 ```
 
-2. Configure Database
-Update application.properties (or application.yml) with your MySQL credentials:
+### 2. Configure Database
 
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/rojomel
-spring.datasource.username=root
-spring.datasource.password=your_password
-Run the SQL DDL in pre.sql to create necessary tables.
+  Update application.properties (or application.yml) with your MySQL credentials:
 
-3. Run Backend
-bash
-Copy
-Edit
+  properties
+  Copy
+  Edit
+  spring.datasource.url=jdbc:mysql://localhost:3306/rojomel
+  spring.datasource.username=root
+  spring.datasource.password=your_password
+
+  Run the SQL DDL in pre.sql to create necessary tables.
+
+### 3. Run Backend
+```bash
 ./mvnw spring-boot:run
-The server will start on: http://localhost:8080
+```
+`The server will start on: http://localhost:8080
 
 📘 API Endpoints
 🔹 Customer APIs
